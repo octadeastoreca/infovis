@@ -1,0 +1,3 @@
+mkdir RawGraphs
+mv index.html RawGraphs/
+mv bumpchart.svg RawGraphs/
