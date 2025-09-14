@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Summary</title>
+  <style>
+    :root { --bg:#f7f7f8; --text:#111827; --muted:#6b7280; }
+    @media (prefers-color-scheme: dark){
+      :root { --bg:#0b0c0f; --text:#e5e7eb; --muted:#9aa0a6; }
+    }
+    body { margin:0; background:var(--bg); color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 20px 60px; }
+    .back { display:inline-block; margin-bottom:14px; color: var(--muted); text-decoration:none; }
+    h1 { margin:0 0 6px; }
+    .subtitle { margin:0 0 18px; color:var(--muted); }
+    .thumb { margin-bottom:18px; border:1px solid var(--muted); border-radius:12px; overflow:hidden; }
+    .thumb img { display:block; width:100%; height:auto; }
+    iframe { width:100%; height:80vh; border:0; border-radius:12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">← Volver al inicio</a>
+    <h1>Dashboard Summary</h1>
+    <p class="subtitle">Embed desde Power BI</p>
+
+    
+    <iframe title="TP Dashboard InfoVis" src="https://app.powerbi.com/view?r=eyJrIjoiNjVmNDQwYzItYjUwNy00NzJhLWI2NDctMjI2NzMzYzMxOTU5IiwidCI6ImExZjUwYTk3LTIxYzAtNDlhNy1hOWQ0LWYyNDRlYmI0MmRhNyIsImMiOjR9" allowfullscreen="true"></iframe>
+  </div>
+</body>
+</html>
